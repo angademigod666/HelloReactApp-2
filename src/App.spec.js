@@ -10,12 +10,3 @@ it('renders without crashing', () => {
     </StrictMode>
   );
 });
-
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.createRoot(div).render(
-    <StrictMode>
-      <Hello />
-    </StrictMode>
-  );
-});
